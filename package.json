@@ -1,0 +1,20 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "Simpe HTTP server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "http",
+    "server"
+  ],
+  "author": "Martin Kukolos <martin@kukolos.sk>",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.0.3",
+    "serve-static": "^1.12.3"
+  }
+}
